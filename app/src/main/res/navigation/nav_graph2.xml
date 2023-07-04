@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/musicFragment">
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.musicplayer32.fragments2.MusicFragment"
+        android:label="MusicFragment"
+        tools:layout="@layout/my_music_layout"/>
+
+
+</navigation>
